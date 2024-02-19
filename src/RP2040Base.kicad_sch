@@ -2471,6 +2471,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6dc7609c-ab2a-4178-ac6b-545967620cbe)
   )
+  (label "ADC0" (at 134.62 173.99 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6efe63d9-a038-4741-b1ea-481e4a4c58a9)
+  )
   (label "QSPI_SCLK" (at 83.82 138.43 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 715a8a61-081f-42e4-a44f-b58ebee45a7b)
@@ -2482,6 +2486,10 @@
   (label "GPIO22" (at 134.62 161.29 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7c3c2b4a-fde7-45cd-aa0b-73566eef41ac)
+  )
+  (label "ADC2" (at 134.62 179.07 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8010f822-1cef-423b-abac-f9fce32467d0)
   )
   (label "QSPI_SD1" (at 83.82 130.81 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -2539,6 +2547,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b9cfabfe-64c1-4ac3-bdfa-7187df4c65a4)
   )
+  (label "ADC3" (at 134.62 181.61 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cadd83e4-e6f4-4375-923b-827f7ed9524a)
+  )
   (label "XOUT" (at 97.79 66.04 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cb8bec72-50e0-42c1-8908-73b0741d3c8b)
@@ -2546,6 +2558,10 @@
   (label "GPIO24" (at 134.62 166.37 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cdda9d5d-eabb-4c58-a10c-21dc6ed49636)
+  )
+  (label "ADC1" (at 134.62 176.53 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d930d2bc-a0da-4c03-bfd3-c1cdab02fa21)
   )
   (label "GPIO6" (at 134.62 120.65 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3122,8 +3138,8 @@
     (property "Datasheet" "~" (at 63.5 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 69a4bb5f-c397-48af-b741-5ae078ed5e64))
-    (pin "1" (uuid f563310d-c861-421c-b4dc-185106e1b7d9))
+    (pin "2" (uuid 69a4bb5f-c397-48af-b741-5ae078ed5e65))
+    (pin "1" (uuid f563310d-c861-421c-b4dc-185106e1b7da))
     (instances
       (project "RP2040Base"
         (path "/15ffae99-7182-422e-91f6-06de33ae4205"
@@ -3251,8 +3267,8 @@
     (property "Datasheet" "~" (at 30.48 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid da141d22-11e3-4f33-9d0d-b278dda71f50))
-    (pin "2" (uuid faf62901-6761-40fc-a210-7a55cd0072f7))
+    (pin "1" (uuid da141d22-11e3-4f33-9d0d-b278dda71f51))
+    (pin "2" (uuid faf62901-6761-40fc-a210-7a55cd0072f8))
     (instances
       (project "RP2040Base"
         (path "/15ffae99-7182-422e-91f6-06de33ae4205"
@@ -4100,7 +4116,7 @@
     (property "Datasheet" "" (at 19.05 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5b73eabf-42f0-42a0-9395-5d801d15f625))
+    (pin "1" (uuid 5b73eabf-42f0-42a0-9395-5d801d15f626))
     (instances
       (project "RP2040Base"
         (path "/15ffae99-7182-422e-91f6-06de33ae4205"
